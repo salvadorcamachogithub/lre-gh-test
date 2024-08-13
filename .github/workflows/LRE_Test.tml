@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Execute LRE test
+    name: Execute LRE test1
     env:
       lre_username: ${{ secrets.LRE_USERNAME_TOKEN }}
       lre_password: ${{ secrets.LRE_PASSWORD_TOKEN }}
